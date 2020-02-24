@@ -1,0 +1,82 @@
+// Place all the styles related to the questions controller here.
+p {
+  font-size: 18px;
+}
+
+h1 {
+  text-align: center;
+}
+.main-content {
+  display: flex;
+  flex-direction: column;
+  margin: 32px auto;
+  box-shadow: 1px 1px 4px 1px rgba(0,0,0,0.34);
+  border-radius: 4px;
+  background: white;
+  padding: 16px;
+  width: 500px;
+}
+
+.content {
+  box-shadow: 1px 1px 4px 1px rgba(0,0,0,0.34);
+  border-radius:4px;
+  margin-bottom: 16px;
+  padding: 16px;
+  padding-left:24px;
+}
+
+.question {
+  background:#d8d8d8;
+}
+
+.answer {
+  background:#fcd874;
+}
+
+.author {
+  font-style: italic;
+}
+
+.back {
+  display:flex;
+  margin: 0px auto;
+}
+
+.input {
+  padding: 8px;
+  border-radius: 4px;
+  width:370px;
+}
+
+.form {
+  justify-content:center;
+}
+
+.btn-back {
+  margin-left:8px;
+  box-shadow: 1px 1px 4px 1px rgba(0,0,0,0.34);
+
+  color:white;
+  font-weight:bold;
+  font-size:16px;
+  border-radius:4px;
+  text-decoration: none;
+  text-decoration:none;
+  padding:8px 16px 8px 16px;
+  background:#6bbcf9;
+}
+
+
+.btn-back:hover {
+  margin-left:8px;
+  box-shadow: 1px 1px 4px 1px rgba(0,0,0,0.34);
+  color:white;
+  font-weight:bold;
+  font-size:16px;
+  text-decoration:none;
+  padding:8px 16px 8px 16px;
+  background:#32aaff;
+}
+
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
